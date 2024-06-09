@@ -1,0 +1,124 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background-color: rgba(37, 37, 37, 0.603);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logoaulab{
+    width: 100px;
+    height: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+
+}
+
+.link:hover{
+    border-bottom: 2px solid yellow;
+    
+}
+
+.listlink{
+    list-style-type: none;
+    display: flex;
+}
+
+header{
+    background-image: url(../imm/background.jpg);
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.linkhome{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.btnarticle{
+    background-color: rgba(37, 37, 37, 0.603);
+    color: white;
+}
+
+.btnarticle:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+.titleArticle{
+    text-align: center;
+}
+
+.imgArticle{
+    width: 300px;
+}
+
+.containerArticle{
+    display: flex;
+    width: 60%;
+}
+
+aside{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+
+}
+
+.imgUp{
+    display: flex;
+    justify-content:right;
+
+    
+}
+
+.imgAnimate{
+    width: 30px;
+}
+
+:root{
+    animation-direction: normal;
+    animation-duration: 2ms;
+}
+
+
+
+@media screen and(min-height:600px) {
+    .imgAnimate{
+        min-height: 15px;
+    }
+
+    .aside{
+        display: inline-block;
+        flex-direction: column;
+    }
+}
+
+
+
+
